@@ -1,0 +1,29 @@
+# Compiled class files
+out/
+*.class
+bin/
+
+# Local SQLite database (generated at runtime — should not be committed)
+library.db
+*.db
+
+# Generated CSV reports (runtime output, not source)
+book_report.csv
+member_report.csv
+transaction_report.csv
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven build output
+target/
+
+# Driver jar (large binary; document how to obtain it instead of committing it)
+Lib/*.jar
+
+# OS files
+.DS_Store
+Thumbs.db
